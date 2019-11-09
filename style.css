@@ -1,0 +1,23 @@
+body {
+    width: 320px;
+}
+
+.keypad-btn {
+    width: 80px;
+    height: 80px;
+}
+
+.keypad-row {
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.output-text {
+    margin-left: 12px;
+}
+
+#output-box {
+    width: 360px;
+    margin-top: 8px;
+    text-align: right;
+}
