@@ -12,78 +12,81 @@
     <title>Calculator!</title>
 </head>
 <body>
-<div class="row output-text">
-    <input type="text" id="output-box">
-</div>
 
-<div class="row">
-    <div class="container">
+<div class="calculator">
+    <div class="row output-text">
+        <input type="text" id="output-box">
+    </div>
 
-        <div class="row keypad-row">
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push(1)"> 1</button>
-            </div>
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push(2)"> 2</button>
-            </div>
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push(3)"> 3</button>
-            </div>
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push('+')"> +</button>
-            </div>
-        </div>
-
-        <div class="row keypad-row">
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push(4)"> 4</button>
-            </div>
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push(5)">5</button>
-            </div>
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push(6)"> 6</button>
-            </div>
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push('-')"> -</button>
-            </div>
-        </div>
-
-        <div class="row keypad-row">
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push(7)">7</button>
-            </div>
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push(8)">8</button>
-            </div>
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push(9)">9</button>
-            </div>
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push('*')"> *</button>
-            </div>
-        </div>
-
-        <div class="row keypad-row">
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push('0')">0</button>
-            </div>
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="evalutate()">=</button>
+    <div class="row">
+        <div class="container">
+            <div class="row keypad-row">
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push(1)"> 1</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push(2)"> 2</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push(3)"> 3</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push('+')"> +</button>
+                </div>
             </div>
 
-
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="push('/')">/</button>
+            <div class="row keypad-row">
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push(4)"> 4</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push(5)">5</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push(6)"> 6</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push('-')"> -</button>
+                </div>
             </div>
 
-            <div class="col-sm-3">
-                <button class="keypad-btn" onclick="clearF()">Clear</button>
+            <div class="row keypad-row">
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push(7)">7</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push(8)">8</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push(9)">9</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push('*')"> *</button>
+                </div>
             </div>
 
+            <div class="row keypad-row">
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push('0')">0</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="evalutate()">=</button>
+                </div>
+
+
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="push('/')">/</button>
+                </div>
+
+                <div class="col-sm-3">
+                    <button class="keypad-btn" onclick="clearF()">Clear</button>
+                </div>
+
+            </div>
         </div>
     </div>
 </div>
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
